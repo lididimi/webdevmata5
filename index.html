@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tattoo Chase</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: black;
+        }
+        #top{
+            text-align: center;
+        }
+        #logo{
+            color: white;
+            background-color:black;
+            display: inline-block;
+            border: 5px solid white;
+            border-radius: 50% ;
+            font-size: 32px; 
+            font-weight: bold;          
+            padding: 25px;
+            margin-top: 16px;
+        }
+        #logo-name{
+            font-size: 32px; 
+            font-weight: bold;
+            margin: 16px;    
+        }
+        #navigation a{
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            font-size: 25px;
+        }
+        #navigation a:hover{
+            color: rgb(238, 83, 109);  
+            }
+        #image img{
+            width: 100%;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }  
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-flow: row wrap;
+            max-width: 1500px;
+            margin: 20px auto;
+            padding: 16px;
+            background-color: black;
+            color: white;
+            font-size: 1.5rem;
+            text-align: justify;
+        } 
+        .about-us{
+            flex:1;
+            padding-left:100px;
+            padding-right: 100px; 
+        }
+        .about-us img{
+            border: 5px solid black;
+            border-radius: 50%;
+            padding-top: 70px;
+        }
+        h2{
+            text-align: center;
+            margin: 80px;
+        }
+        #gallery img{
+            width: 32%;
+            margin-top: 16px;
+            margin-bottom: 16px;  
+        }
+        .image-gallery{
+            width: 100%;
+            padding: 0px 40px;
+        }
+        ul li{
+            list-style: none;
+            margin: 10px 0;
+            cursor: pointer;
+            text-align: center;
+        }
+        .text{
+            color: gray;
+        }
+        li a{
+            text-decoration: none;
+            color: white;
+        }
+        #footer{
+            text-align: center;
+            color: gray;
+            padding: 16px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="top">
+        <div id="logo">TC</div>
+        <div id="logo-name">Tattoo Chase</div>
+        <div id="navigation">
+             <a href="#about-us">Über mich</a>
+             <a href="#gallery">Galerie</a>
+             <a href="#contact">Kontakt</a>
+        </div>
+        <div id="image">
+             <img src="img/background.jpg" alt="Background-Bild Tattoo Chase">
+        </div>
+   </div>
+   
+   <div class="main">
+        <div id="about-us" class="about-us" >
+             <img src="img/me.jfif" alt="Profile Bild">
+        </div>
+        <div class="about-us">
+            <h2>Über mich</h2>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A eligendi impedit repellat alias dicta. Illo eligendi temporibus quidem unde nostrum deserunt voluptatum nisi facilis explicabo doloremque porro iure, dolor vel.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit animi perferendis mollitia nisi eos quibusdam sed nemo et aperiam velit nulla repellendus cum cumque, suscipit esse quas quaerat doloremque illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit animi perferendis mollitia nisi eos quibusdam sed nemo et aperiam velit nulla repellendus cum cumque, suscipit esse quas quaerat doloremque illo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit animi perferendis mollitia nisi eos quibusdam sed nemo et aperiam velit nulla repellendus cum cumque, suscipit esse quas quaerat doloremque illo.
+             </p>
+        </div>
+
+        <div id="gallery" class="main">
+            <h2>Galerie</h2>
+            <div class="image-gallery">
+                <img src="img/g1.jfif" alt="Bild">
+                <img src="img/g2.jfif" alt="Bild">
+                <img src="img/g5.jfif" alt="Bild">
+            </div>
+       </div>
+
+        <div id="contact" class="main">
+                <div class="about-us"> 
+                    <h2>Kontakt</h2>
+                    <ul>
+                        <li>
+                            <span class="text">Tel.:</span> 0049897773529
+                        </li>
+                        <li>
+                            <span class="text">E-Mail:</span> tattoo@yahoo.com
+                        </li>
+                        <li>
+                            <span class="text">Web Seite:</span> 
+                            <a href="#"> www.mywebsite.com</a>
+                        </li>
+                        <li>
+                            <span class="text">Adresse: </span>Braunschweig, Deutschland
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="about-us">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d156250.76396949074!2d10.387802005676273!3d52.272109521179836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47aff5d58a00663b%3A0x425ac6d94ac3ab0!2sBraunschweig!5e0!3m2!1sde!2sde!4v1637575215218!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+        </div>
+    </div>    
+   <div id="footer">Copyright 2021/ Tattoo Chase</div>
+</body>
+</html>
