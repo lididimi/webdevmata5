@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tattoo Chase</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
@@ -22,17 +23,22 @@
             border-radius: 50% ;
             font-size: 32px; 
             font-weight: bold;          
-            padding: 25px;
+            padding: 15px;
             margin-top: 16px;
         }
         #logo-name{
+            color: white;
             font-size: 32px; 
-            font-weight: bold;
-            margin: 16px;    
+            font-weight: bold; 
+        }
+        #navigation{
+            width: 1000px;
+            margin: 80px auto;
+           
         }
         #navigation a{
             color: white;
-            padding: 8px;
+            padding: 18px;
             text-decoration: none;
             font-size: 25px;
         }
@@ -86,12 +92,15 @@
             cursor: pointer;
             text-align: center;
         }
-        .text{
-            color: gray;
-        }
         li a{
             text-decoration: none;
             color: white;
+        }
+        .icon{
+            display: inline-block;
+            width: 30px;
+            font-size: 25 px;
+            color: #67c2ec;
         }
         #footer{
             text-align: center;
@@ -104,7 +113,9 @@
 <body>
     <div id="top">
         <div id="logo">TC</div>
-        <div id="logo-name">Tattoo Chase</div>
+        <div id="logo-name">
+            <h3>Tattoo Chase</h3>
+        </div>
         <div id="navigation">
              <a href="#about-us">Über mich</a>
              <a href="#gallery">Galerie</a>
@@ -139,18 +150,21 @@
                     <h2>Kontakt</h2>
                     <ul>
                         <li>
-                            <span class="text">Tel.:</span> 0049897773529
+                            <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                            <span class="text">0049897773529</span> 
                         </li>
                         <li>
-                            <span class="text">E-Mail:</span> tattoo@yahoo.com
+                            <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                            <span class="text">tattoo@yahoo.com</span> 
                         </li>
                         <li>
-                            <span class="text">Web Seite:</span> 
+                            <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
                             <a href="#"> www.mywebsite.com</a>
                         </li>
                         <li>
-                            <span class="text">Adresse: </span>Braunschweig, Deutschland
-                        </li>
+                            <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <span class="text">Braunschweig, Deutschland</span>
+                            </li> 
                     </ul>
                 </div>
 
